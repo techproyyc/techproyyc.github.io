@@ -3872,10 +3872,46 @@
 
 		}
 
+/* Splasher */
+
+	#splasher {
+		padding: 7em 0 4em 0;
+		background-color: #1E2832;
+		color: rgba(255, 255, 255, 0.75);
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-size: cover;
+		text-align: center;
+	}
+
+	#splasher h1, #splasher h2, #splasher h3, #splasher h4, #splasher h5, #splasher h6 {
+		color: #fff;
+	}
+
+	#splasher h2 {
+		font-size: 4.5em;
+		margin: 0 0 2.5em 0;
+		padding: 0;
+	}
+
+	#splahser p {
+		color: #fff;
+		font-size: 2.5em;
+		margin-bottom: 1.25em;
+		text-transform: uppercase;
+	}
+
+	#splasher p {
+		color: #fff;
+		font-size: 1.5em;
+		margin-bottom: 0.25em;
+		text-transform: uppercase;
+	}
+
 /* Banner */
 
 	#banner {
-		padding: 8em 0 6em 0;
+		padding: 4em 0 2em 0;
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
@@ -4008,7 +4044,7 @@
 		#banner p {
 			color: #fff;
 			font-size: 1.5em;
-			margin-bottom: 1.75em;
+			margin-bottom: 0.25em;
 			text-transform: uppercase;
 		}
 
@@ -4028,7 +4064,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 11em 0 9em 0;
+				padding: 4em 0 3em 0;
 			}
 
 		}
@@ -4036,7 +4072,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 7em 0 5em 0;
 			}
 
 				#banner h2 {
@@ -4048,7 +4084,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 8em 2em 6em 2em;
+				padding: 7em 1em 5em 1em;
 			}
 
 		}
@@ -4056,7 +4092,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 5em 1em 3em 1em;
 			}
 
 				#banner h2 {
@@ -4076,7 +4112,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 5em 1em 3em 1em;
 			}
 
 				#banner .icon {
